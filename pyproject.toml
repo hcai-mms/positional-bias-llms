@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "highly-biased"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.55"
+weave = "0.51.29"
+nltk = "^3.9.1"
+syllables = "^1.0.9"
+tqdm = "^4.67.1"
+sentence-transformers = "^3.3.1"
+vadersentiment = "^3.3.2"
+textblob = "^0.18.0.post0"
+text2emotion = "^0.0.5"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+google-genai = "^1.11.0"
+google = "^3.0.0"
+altair = "^5.5.0"
+vegafusion = "^2.0.1"
+vl-convert-python = "^1.7.0"
+evaluate = "^0.4.3"
+rouge_score = "^0.1.2"
+seaborn = "^0.13.2"
+scipy = "^1.15.1"
+scikit-posthocs = "^0.11.2"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
